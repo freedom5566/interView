@@ -22,21 +22,21 @@ XOR的規則是只有一個位元為1的時候才會為1
     $a ^= $b;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1010      
-xor &nbsp;&nbsp;&nbsp;&nbsp;0011        
+xor &nbsp;&nbsp;&nbsp;0011        
 <p>------------------</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A=1001
 
     $b ^= $a;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0011      
-xor &nbsp;&nbsp;&nbsp;&nbsp;1001        
+xor &nbsp;&nbsp;&nbsp;1001        
 <p>------------------</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B=1010        
 
     $a ^= $b;
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1001      
-xor &nbsp;&nbsp;&nbsp;&nbsp;1010        
+xor &nbsp;&nbsp;&nbsp;1010        
 <p>------------------</p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A=0011
 
