@@ -33,3 +33,6 @@ vim .git/config
 * 縮排總是亂跳的問題        
 這個選項是根據你打開的文件來猜測你的縮排是幾個空白，設成false
 `"editor.detectIndentation":false`
+        
+*如果只有一個commit怎麼退回？       
+[stack](https://stackoverflow.com/questions/10911317/how-to-remove-the-first-commit-in-git/32765827#32765827 "stack")
