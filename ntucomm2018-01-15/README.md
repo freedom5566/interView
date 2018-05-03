@@ -13,7 +13,7 @@ $sudo chomd -R 你要更改的權限 目標資料夾
 ```
 # Apache
 * 情境題        
-    1. 今天有一個網站的根目錄是/testcomm，裏面的所有資料夾都開放外界瀏覽。若我們想要拒絕外界對於其底下X目錄的訪問，但開放X目錄底下的子目錄Y，也就是只有當我們使用網址https://comm.ntu.edu.tw/X.Y時可以瀏覽Y目錄的內容，但是https://comm.ntu.edu.tw/X會被禁止訪問，請問該怎麼設定
+    1. 今天有一個網站的根目錄是/testcomm，裏面的所有資料夾都開放外界瀏覽。若我們想要拒絕外界對於其底下X目錄的訪問，但開放X目錄底下的子目錄Y，也就是只有當我們使用網址`https://comm.ntu.edu.tw/X.Y`時可以瀏覽Y目錄的內容，但是`https://comm.ntu.edu.tw/X`會被禁止訪問，請問該怎麼設定
     ```
      <Directory "/testcomm/x">
         AllowOverride None
